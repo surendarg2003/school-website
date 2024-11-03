@@ -1,0 +1,57 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #0044cc;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.welcome {
+    background-color: #f5f5f5;
+}
+
+.announcements, .events {
+    background-color: #e0e0e0;
+}
+
+/* Footer */
+footer {
+    background-color: #0044cc;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
